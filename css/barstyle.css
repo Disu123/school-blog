@@ -1,0 +1,38 @@
+.mainBar ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 1px 0; 
+  position: fixed;
+  margin: 0;
+  top: 0;
+  width: 98.7%;
+  background-color: red;
+  z-index: 1000;
+}
+.mainBar ul a {  
+  margin: 0 10px; /* Small margin between links */
+  text-decoration: none;
+}
+
+.mainBar ul a{
+ color: white;
+ position: relative;
+}
+
+.mainBar ul a::before{
+  content: ''; 
+  position: absolute;
+  left: -1.0em; 
+  opacity: 0; 
+  transition: opacity 0.3s; 
+}
+
+.mainBar ul a:hover {
+  color: green; 
+}
+
+.mainBar ul a:hover::before {
+  content: '>';
+  opacity: 1; 
+}

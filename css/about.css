@@ -1,0 +1,23 @@
+main {
+  color: white;
+}
+
+.titulo{
+  color: white;
+  font-size: 37;
+  text-align: center;
+  height: 10vh;
+}
+section{
+  text-align: center;
+  font-size: 18px;
+}
+footer{
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}

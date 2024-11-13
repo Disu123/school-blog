@@ -1,0 +1,26 @@
+main {
+  color: white;
+}
+
+.titulo{
+  color: white;
+  font-size: 37;
+  text-align: center;
+  height: 10vh;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+section{
+  text-align: center;
+}
+
+aside{
+  position: relative;
+}
+
+footer{
+  text-align: center;
+  color: white;
+}
